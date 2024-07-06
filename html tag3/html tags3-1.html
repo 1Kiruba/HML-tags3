@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            button{
+                padding: 0px 20px 0px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Test Form</h1>
+        <p>Text Field containing Plaintext</p>
+        <input type="textbox" style="background-color: lightgoldenrodyellow">Your Name
+        <p>Multiple-Line Text Field</p>
+        <input type="textbox" placeholder="Default contents go here." maxlength="300" minlength="50" style="padding: 0px 20px 40px 20px; ">
+        <br>
+        <label for="ck">Checkbox</label>
+        <input type="checkbox" name="ck">Hungry
+        <label for="bl">Text Field containing a Numeric Value</label>
+        <input type="text" name="bl">Blood Temperature(80.0-120.0)
+        <p>Single-SELECT</p>
+        <select>
+            <option>Red</option>
+            <option>Green</option>
+        </select>
+        <p>Single-SELECT</p>
+        <select>
+            <option>Pistachio</option>
+            <option>Walnut</option>
+            <option>Creme</option>
+        </select>
+        <br>
+        <label for="ag">Exclusive Radio Button Group: Age of Truck in Years</label>
+        <input type="radio" name="age" value="1">1
+        <input type="radio" name="age" value="2">2
+        <input type="radio" name="age" value="3">3
+        <input type="radio" name="age" value="4">4
+        <br><br>
+        <span>Nonexclusive Checkbox Group: Voting for Zero through Four Candidates</span>
+        <input type="checkbox">A
+        <input type="checkbox">B
+        <input type="checkbox">C
+        <input type="checkbox">D
+        <br>
+        <button type="submit">Submit Request</button>
+        <button type="reset">Reset Request</button>
+    </body>
+</html>
